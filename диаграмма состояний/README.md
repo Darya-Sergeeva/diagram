@@ -72,6 +72,7 @@ state Главное_меню {
 ```
 *** Диаграмма состояний: ***
 
+![image](https://github.com/Darya-Sergeeva/diagram-/assets/79162305/8e145a82-99c5-4cfa-bf58-abee8710a3a2)
 
 
 
