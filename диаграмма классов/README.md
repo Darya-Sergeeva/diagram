@@ -54,3 +54,89 @@ class Задача {
 @enduml
 
 ```
+
+**Код диаграммы на языке java^**
+```
+public class User {
+    private int id;
+    private String username;
+    private String password;
+    
+    public void login() {
+        // Логика входа в систему
+    }
+    
+    public Project createProject() {
+        // Логика создания проекта
+        return new Project();
+    }
+    
+    public Task createTask() {
+        // Логика создания задачи
+        return new Task();
+    }
+    
+    public void viewTasks() {
+        // Логика просмотра задач
+    }
+    
+    public void logout() {
+        // Логика выхода из системы
+    }
+}
+
+public class Project {
+    private int id;
+    private String name;
+    private String description;
+    private List<Task> tasks;
+    
+    public Project() {
+        tasks = new ArrayList<>();
+    }
+    
+    public void addTask(Task task) {
+        // Логика добавления задачи в проект
+        tasks.add(task);
+    }
+    
+    public List<Task> getTasks() {
+        // Логика получения списка задач
+        return tasks;
+    }
+}
+
+public class Task {
+    private int id;
+    private String name;
+    private String description;
+    private Date creationDate;
+    private Date deadline;
+    private String status;
+    
+    public void changeName(String newName) {
+        // Логика изменения названия задачи
+        this.name = newName;
+    }
+    
+    public void changeDescription(String newDescription) {
+        // Логика изменения описания задачи
+        this.description = newDescription;
+    }
+    
+    public void changeDeadline(Date newDeadline) {
+        // Логика изменения срока выполнения задачи
+        this.deadline = newDeadline;
+    }
+    
+    public void changeStatus(String newStatus) {
+        // Логика изменения статуса задачи
+        this.status = newStatus;
+    }
+}
+
+```
+
+
+**Диаграмма классов:**
+![image](https://github.com/Darya-Sergeeva/diagram-/assets/79162305/654d548c-f6ae-4efb-9358-152b88cc515b)
