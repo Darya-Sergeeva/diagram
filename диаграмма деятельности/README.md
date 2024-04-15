@@ -74,6 +74,6 @@ endif
 :Конец;
 @enduml
 ```
+![image](https://github.com/Darya-Sergeeva/diagram-/assets/79162305/80fb6e5d-c37d-4a86-b720-6b2971d0b5f2)
 
-![image](https://github.com/Darya-Sergeeva/diagram-/assets/79162305/e00737f1-d4bb-44ac-a6e7-826911c8894c)
 
